@@ -1,4 +1,4 @@
-// PUNYA SAYA [ RIMURUBOTZ ] JANGAN UBAH THX TO YA
+// PUNYA SAYA [ bukan wibu bot ] JANGAN UBAH THX TO YA
 // DILARANG DI PERJUAL BELIKAN
 const respon = require('./lib/respon.js');
 const iklan = require('./admin/iklan.js');
@@ -435,9 +435,9 @@ break
 case 'owner':
 const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n' 
-+ `FN:${namaowner}\n`
++ `FN:${Daffa v2}\n`
 + 'ORG:Ini saya;\n'
-+ `TEL;type=CELL;type=VOICE;waid=${nomerowner}:+${nomerowner}\n`
++ `TEL;type=CELL;type=VOICE;waid=${089524108342}:+${089524108342}\n`
 + 'END:VCARD';
 nayla.sendMessage(from, { contacts: { contacts: [{ vcard }] }});
 break
@@ -754,7 +754,7 @@ hydratedButtons: botttonnya
 await nayla.relayMessage(from, template.message, { messageId: template.key.id })
 break
 case 'mygrub': case 'mygrup':
-replyy("Join-ya!?\n" + linkgrub)
+replyy("Join-ya!?\n" + linkgrup)
 break
 case 'wallneon': case 'wallrandom': case 'wallcode': case 'wallpubg': case 'wallml': 	
 try{
